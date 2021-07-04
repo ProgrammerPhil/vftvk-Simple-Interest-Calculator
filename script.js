@@ -26,7 +26,7 @@ function compute()
 	document.getElementById("year").innerHTML=year;
 }
 
-/*Updating Rate After Refresh*/
+/*Updating Rate Number When Slider Moves*/
 function updateRate()
 {
 	var rateval = document.getElementById("rate").value;
